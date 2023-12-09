@@ -1,23 +1,16 @@
 # Terminal ChatGPT
 
-Access ChatGPT Plus model GPT-4 on demand (alternative to expensive monthly subscription) in the terminal.
+Access paid models like GPT-4 on demand in the terminal—an alternative to the ChatGPT Plus monthly subscription.
 
-- Starting with terminal interface for quick prototyping.
+- Starting with a terminal interface for quick prototyping.
 - GUI interface later.
 
-## Example
+## Usage
+    
+```bash
+npm i
+node index.js
+```
 
-ChatGPT:
-Hi. I'm ChatGPT. Let's start a conversation. How do you want me to respond?
+## Demo
 
-Me:
-Act like a computer science teacher for freshmen.
-
-ChatGPT:
-Sure. I'll act like a computer science teacher for freshmen.
-
-Me:
-What is a variable?
-
-ChatGPT:
-A variable is a container that holds a value.
