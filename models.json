@@ -1,0 +1,58 @@
+{
+  "gpt-3.5-turbo": {
+    "id": "gpt-3.5-turbo",
+    "name": "GPT-3.5 Turbo",
+    "tokens": 4096,
+    "description": "Currently points to gpt-3.5-turbo-0613.",
+    "trainingData": "Up to Sep 2021"
+  },
+  "gpt-3.5-turbo-instruct": {
+    "id": "gpt-3.5-turbo-instruct",
+    "name": "GPT-3.5 Instruct",
+    "tokens": 4096,
+    "description": "Similar capabilities as text-davinci-003 but compatible with legacy Completions endpoint and not Chat Completions.",
+    "trainingData": "Up to Sep 2021"
+  },
+  "gpt-3.5-turbo-16k": {
+    "id": "gpt-3.5-turbo-16k",
+    "name": "GPT-3.5 Turbo",
+    "tokens": 16385,
+    "description": "Currently points to gpt-3.5-turbo-0613.",
+    "trainingData": "Up to Sep 2021"
+  },
+  "gpt-3.5-turbo-1106": {
+    "id": "gpt-3.5-turbo-1106",
+    "name": "GPT-3.5 Turbo (New)",
+    "tokens": 16385,
+    "description": "The latest GPT-3.5 Turbo model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Returns a maximum of 4,096 output tokens.",
+    "trainingData": "Up to Sep 2021"
+  },
+  "gpt-4": {
+    "id": "gpt-4",
+    "name": "GPT-4",
+    "tokens": 8192,
+    "description": "Currently points to gpt-4-0613.",
+    "trainingData": "Up to Sep 2021"
+  },
+  "gpt-4-32k": {
+    "id": "gpt-4-32k",
+    "name": "GPT-4",
+    "tokens": 32768,
+    "description": "Currently points to gpt-4-32k-0613.",
+    "trainingData": "Up to Sep 2021"
+  },
+  "gpt-4-1106-preview": {
+    "id": "gpt-4-1106-preview",
+    "name": "GPT-4 Turbo",
+    "tokens": 128000,
+    "description": "The latest GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Returns a maximum of 4,096 output tokens. This preview model is not yet suited for production traffic.",
+    "trainingData": "Up to Apr 2023"
+  },
+  "gpt-4-vision-preview": {
+    "id": "gpt-4-vision-preview",
+    "name": "GPT-4 Turbo with vision",
+    "tokens": 128000,
+    "description": "GPT-4 Turbo with vision (New). 128,000 tokens. Ability to understand images, in addition to all other GPT-4 Turbo capabilities. Returns a maximum of 4,096 output tokens. This is a preview model version and not suited yet for production traffic.",
+    "trainingData": "Up to Apr 2023"
+  }
+}

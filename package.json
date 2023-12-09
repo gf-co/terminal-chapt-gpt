@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "terminal-chat-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "readline-sync": "^1.4.10",
+    "word-wrap": "^1.2.5"
+  }
+}
